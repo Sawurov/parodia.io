@@ -286,3 +286,36 @@ ul{
     letter-spacing: 3px;
 }
 
+/* media */
+@media (max-width: 768px) {
+    .nav{
+        width: 100px;
+        height: 50vh;
+    }
+    .logo span{
+        font-size: 20px;
+    }
+    .logo h1{
+        font-weight: 100;
+        font-size: 9px;
+    }
+    .scrolldown{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+
+    }
+    .scrolldown::before{
+        content: '';
+        display: inline-block;
+        border-top: 1px solid #7c827f;
+        width: 32px;
+        margin: 0 10px 0 0;
+
+    }
+    .menu-links{
+
+        padding-top: 243px;
+    }
+}
+/* media end */
