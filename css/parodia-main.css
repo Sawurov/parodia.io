@@ -217,11 +217,11 @@ ul{
 
 .circle1{
     top: 140px;
-    left: 212px;
+    left: 242px;
 }
 .circle2{
     bottom: 316px;
-    right: 130px;
+    right: 100px;
 }
 
 .circle1::before,
